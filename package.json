@@ -1,5 +1,6 @@
 {
   "name": "omnistack-front",
+  "author": "Matheus Gaspar <matheus@web7online.com>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

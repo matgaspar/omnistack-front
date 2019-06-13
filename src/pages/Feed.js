@@ -9,6 +9,7 @@ import like from '../assets/like.svg';
 import comment from '../assets/comment.svg';
 import send from '../assets/send.svg';
 
+
 class Feed extends Component {
     state = {
         feed: [],
@@ -54,7 +55,7 @@ class Feed extends Component {
                                 <span>{post.author}</span>
                                 <span className="place">{post.place}</span>
                             </div>
-
+                            
                             <img src={more} alt="Mais" />
                         </header>
 
